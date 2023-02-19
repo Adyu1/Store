@@ -18,55 +18,59 @@ public class Customer {
     private String email;
     private Date birth_date;
 
-    public Customer(int id, String name, String surname, String password, String email, Date birth_date){
+    public Customer(int id, String name, String surname, String password, String email, Date birthDate){
         this.id = id;
         this.name = name;
         this.surname = surname;
         this.password = password;
         this.email = email;
-        this.birth_date = birth_date;
+        this.birth_date = birthDate;
 
     }
 
     public int getId(){
-    return id;
+        return id;
     }
     public void setId(int id){
-    this.id = id;
+        this.id = id;
     }
    
     public String getName() {
-    return name;
+        return name;
     }
     public void setName (String name){
-    this.name = name;
+        this.name = name;
     }
 
     public String getSurname() {
-    return surname;
+        return surname;
     }
     public void setSurname (String surname){
-    this.surname = surname;
+        this.surname = surname;
     }
 
     public String getPassword() {
-    return password;
+        return password;
     }
     public void setPassword (String password){
-    this.password = password;
+        this.password = password;
     }
  
     public String getEmail() {
-    return email;
+        return email;
     }
     public void setEmail (String email){
-    this.email = email;
+        this.email = email;
     }
     
-    public Date getBirth_date() {
-    return birth_date;
+    public Date getBirthDate() {
+        return birth_date;
     }
-    public void setBirth_date (Date birth_date){
-    this.birth_date = birth_date;
+    public void setBirthDate (Date birthDate){
+        this.birth_date = birthDate;
+    }
+
+    public Customer saveCustomer(Customer customer){
+        return null;
     }
 }
