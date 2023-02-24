@@ -5,6 +5,9 @@ import com.store.store.model.Customer;
 
 public interface CustomerService {
     public Customer saveCustomer(Customer customer);
-    public List<Customer> getAllCustomers();   
+    public static List<Customer> getAllCustomers() {
+       
+        return null;
+    }   
     
 }
